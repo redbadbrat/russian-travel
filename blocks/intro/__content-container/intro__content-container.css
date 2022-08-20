@@ -1,0 +1,27 @@
+.intro__content-container {
+    max-width: 690px;
+    padding: 0;
+    margin: 0;
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+    .intro__content-container {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 321px) {
+    .intro__content-container {
+        margin-left: 24px;
+        margin-right: 24px;
+        max-width: 720px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .intro__content-container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

@@ -1,0 +1,21 @@
+.intro {
+    max-width: 984px;
+    /*max-height: 429px;*/
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    /*думаю, раз я прописала flex-start обёртке, следующие 2 свойства избыточны*/
+    align-items: flex-start;
+    justify-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    margin: 92px auto auto auto;
+}
+
+/*@media all and (max-width: 729px) {
+    .intro__content-container {
+        max-height: 754px;
+    }
+}*/
+
+/*временно убрала - ломало следующий за элементом грид*/

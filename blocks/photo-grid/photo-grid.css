@@ -1,0 +1,15 @@
+.photo-grid {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+    grid-template-rows: repeat(auto-fit, minmax(213px, max-content));
+    gap: 1rem;
+    justify-self: center;
+    align-self: center;
+    margin: 94px auto auto auto;
+    padding: auto;
+    grid-auto-flow: row dense;
+}
+
+/*я знаю, что адаптивка тут не работает от слова совсем. но я не понимаю, почему и сейчас 1:35 ночи.
+отправляю так, мои извинения. нужен пинок в сторону верного ответа :(*/

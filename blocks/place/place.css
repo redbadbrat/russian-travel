@@ -1,0 +1,14 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: min-content max-content;
+    column-gap: 40px;
+    row-gap: 48px;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto 80px auto;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
