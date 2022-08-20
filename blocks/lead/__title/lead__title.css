@@ -1,0 +1,39 @@
+.lead__title {
+    max-width: 720px;
+    max-height: 200px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1.04;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+/*дорогой дневник, 
+думая над данным этапом, я задалась вопросом об адаптивности шрифтов. с одной стороны, есть caption,
+где на разных значениях экрана не меняется размер шрифта. с другой стороны, у тайтла он скачет как чёрт знает что. исходя из 
+ограничения caption в данном блоке, я решила не скейлить в page видом font-size: 70% через медиа запрос, а назначить медиа запросы 
+каждому элементу. похожий изначальный размер я наблюдаю лишь у заголовков place и cover.*/
+
+@media all and (max-width: 768px) {
+    .lead__title {
+        font-size: 5rem;
+        max-width: 600px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .lead__title {
+        font-size: 3.5rem;
+        line-height: 1.1;
+        max-width: 450px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .lead__title {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        max-width: 320px;
+    }
+}
