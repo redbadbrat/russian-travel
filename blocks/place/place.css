@@ -29,7 +29,7 @@
 
 @media all and (max-width: 425px) {
     .place {
-        grid-template-columns: minmax(min-content, max-content) ;
+        grid-template-columns: minmax(min-content, max-content);
         grid-template-rows: max-content min-content max-content;
         margin: 0 16px 50px 16px;
         row-gap: 32px;
