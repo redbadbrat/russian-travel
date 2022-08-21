@@ -10,7 +10,7 @@
 }
 
 @media all and (max-width: 768px) {
-    .lead__title {
+    .lead__subtitle {
         font-size: 1rem;
         line-height: 1.25;
         max-width: 288px;

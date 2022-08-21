@@ -1,0 +1,9 @@
+.cover__text-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+/*padding: calc((100% - 32px - 152px - 66px) / 2) auto;*/

@@ -12,6 +12,18 @@
     margin: 92px auto auto auto;
 }
 
+@media all and (max-width:1000px) {
+    .intro {
+    margin-top: 88px;    
+    }
+}
+
+@media all and (max-width:425px) {
+    .intro {
+    margin-top: 64px;    
+    }
+}
+
 /*@media all and (max-width: 729px) {
     .intro__content-container {
         max-height: 754px;

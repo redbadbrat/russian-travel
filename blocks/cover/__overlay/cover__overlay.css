@@ -1,0 +1,8 @@
+.cover__overlay {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cover__overlay:hover {
+    cursor: pointer;
+}

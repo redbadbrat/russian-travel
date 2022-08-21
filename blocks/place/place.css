@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: 460px 484px;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
     grid-template-rows: min-content max-content;
     column-gap: 40px;
     row-gap: 48px;
@@ -12,3 +12,55 @@
 .place:last-of-type {
     margin-bottom: 0;
 }
+
+@media all and (max-width: 1024px) {
+    .place {
+        column-gap: 32px;
+        margin: 0 48px 80px 48px;
+    }    
+}
+
+@media all and (max-width: 768px) {
+    .place {
+        column-gap: 28px;
+        margin: 0 24px 72px 24px;
+    }    
+}
+
+@media all and (max-width: 425px) {
+    .place {
+        grid-template-columns: minmax(min-content, max-content) ;
+        grid-template-rows: max-content min-content max-content;
+        margin: 0 16px 50px 16px;
+        row-gap: 32px;
+    }    
+}
+
+/*прошлые варианты на точных величинах, заменила на min-content*/
+
+/*_____________________________________________________________*/
+
+
+/*@media all and (max-width: 1024px) and (min-width: 1001px) {
+    .place {
+        grid-template-columns: 440px 456px;
+        grid-template-rows: min-content min-content;
+        column-gap: 32px;
+    }
+}
+
+@media all and (max-width: 1000px) and (min-width: 769px) {
+    .place {
+        grid-template-columns: 408px 422px;
+        grid-template-rows: min-content min-content;
+        column-gap: 28px;
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 425px) {
+    .place {
+        grid-template-columns: 340px 352px;
+        grid-template-rows: min-content min-content;
+        column-gap: 28px;
+    }
+}*/
