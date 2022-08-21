@@ -32,6 +32,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
+@import url(../blocks/intro/__line/intro__line.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/cover/__text-container/cover__text-container.css);
 @import url(../blocks/cover/__background/cover__background.css);
