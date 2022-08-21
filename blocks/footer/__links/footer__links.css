@@ -1,4 +1,4 @@
-.footer__links-container {
+.footer__links {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 660px) {
-    .footer__links-container {
+    .footer__links {
         margin: 0 0 0 16px;
         flex-direction: column;
         row-gap: 32px;
