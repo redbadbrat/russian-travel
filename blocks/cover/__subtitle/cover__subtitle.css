@@ -11,3 +11,12 @@
     text-align: center;
     margin-top: 32px;
 }
+
+@media all and (max-width: 425px) {
+    .cover__subtitle {
+        max-width: 288px;
+        margin-top: 16px;
+        line-height: 1.14;
+        font-size: 0.875rem;
+    }
+}

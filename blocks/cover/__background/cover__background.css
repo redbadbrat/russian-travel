@@ -24,14 +24,20 @@
     opacity: 0.2;
 }
 
-/*@media all and (max-width: 1183px) {
-    .cover__title {
-        min-height: 740px;    
+@media all and (max-width: 1024px) {
+    .cover__background {
+        min-height: 640px;    
     }
 }
 
 @media all and (max-width: 768px) {
-    .cover__title {
-        margin-top: 115px;    
+    .cover__background {
+        min-height: 480px;    
     }
-}*/
+}
+
+@media all and (max-width: 425px) {
+    .cover__background {
+        min-height: 200px;    
+    }
+}
