@@ -1,0 +1,28 @@
+.place__container-paragraph {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 1024px) {
+    .place__container-paragraph {
+        max-width: 456px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px){
+    .place__container-paragraph {
+        font-size: 2.625rem;
+        line-height: 1.1;
+        max-width: 352px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .place__container-paragraph {
+        font-size: 2rem;
+        max-width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

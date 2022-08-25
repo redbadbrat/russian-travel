@@ -1,7 +1,25 @@
 .photo-grid__item {
-    max-width: 100%;
-    /*max-width: 352px;*/
-    /*min-width: 284px;*/
-    /*max-height: 264px;*/
-    /*min-height: 213px;*/
+    width: 100%;
+    max-width: 284px;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+}
+
+@media all and (max-width: 1085px) {
+    .photo-grid__item {
+        max-width: 300px;
+    }
+}
+
+@media all and (max-width: 920px) {
+    .photo-grid__item {
+        max-width: 352px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .photo-grid__item {
+        max-width: 288px;
+    }
 }
