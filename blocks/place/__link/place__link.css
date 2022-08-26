@@ -7,9 +7,17 @@
     margin: 0;
 }
 
-@media all and (max-width: 425px) {
+/*@media all and (max-width: 585px) {
     .place__link {
         margin-left: 16px;
         margin-right: 16px;
+    }
+}*/
+
+@media all and (max-width: 425px) {
+    .place__link {
+        max-width: 288px;
+        margin-left: 16px;
+        margin-right: auto;
     }
 }

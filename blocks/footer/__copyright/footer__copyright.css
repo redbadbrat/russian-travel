@@ -14,3 +14,10 @@
         margin: 0 0 16px 16px;
     }
 }
+
+@media all and (max-width: 425px) {
+    .footer__copyright {
+        max-width: 100%;
+    }
+}
+

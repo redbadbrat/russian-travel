@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     min-height: 740px;
     height: 100%;

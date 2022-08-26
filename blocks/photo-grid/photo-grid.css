@@ -13,6 +13,7 @@
 
 @media all and (max-width: 1024px) and (min-width: 770px) {
     .photo-grid {
+        max-width: 928px;
         gap: 14px;
     }    
 }

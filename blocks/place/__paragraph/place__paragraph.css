@@ -6,13 +6,13 @@
     margin: 0 0 26px auto;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 899px) {
     .place__paragraph {
         font-size: 1rem;
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 585px) {
     .place__paragraph {
         margin-bottom: 25px;
     }    

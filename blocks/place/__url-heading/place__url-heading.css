@@ -9,9 +9,17 @@
     color: #AAAAAA;
 }
 
-@media all and (max-width: 425px) {
+/*@media all and (max-width: 585px) {
     .place__url-heading {
         margin-left: 16px;
         margin-right: 16px;
+    }
+}*/
+
+@media all and (max-width: 425px) {
+    .place__url-heading  {
+        max-width: 288px;
+        margin-left: 16px;
+        margin-right: auto;
     }
 }

@@ -14,3 +14,9 @@
         row-gap: 32px;
     }
 }
+
+@media all and (max-width: 425px) {
+    .footer__links-container {
+        padding: 0 0 48px 0;
+    }
+}

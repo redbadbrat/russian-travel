@@ -21,7 +21,7 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 899px) {
     .place {
         grid-template-columns: 340px auto;
         column-gap: 28px;
@@ -29,14 +29,25 @@
     }    
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 670px) {
     .place {
         grid-template-columns: max-content;
-        grid-template-rows: max-content min-content max-content;
+        grid-template-rows: min-content min-content max-content;
         margin: 0 16px 50px 16px;
         row-gap: 32px;
     }    
+
 }
+
+@media all and (max-width: 425px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 100% auto;
+        margin: 0 0 50px 0;
+        row-gap: 32px;
+    }    
+}
+
 
 /*прошлые варианты на точных величинах, заменила на min-content*/
 
