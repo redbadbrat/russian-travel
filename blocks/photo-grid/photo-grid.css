@@ -1,15 +1,63 @@
 .photo-grid {
     max-width: 1184px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
-    grid-template-rows: repeat(auto-fit, minmax(213px, max-content));
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     gap: 1rem;
     justify-self: center;
     align-self: center;
-    margin: 94px auto auto auto;
-    padding: auto;
-    grid-auto-flow: row dense;
+    margin: 92px auto auto auto;
+    padding: 0;
+    grid-auto-flow: row;
 }
+
+@media all and (max-width: 1024px) and (min-width: 770px) {
+    .photo-grid {
+        gap: 14px;
+    }    
+}
+
+@media all and (max-width: 770px) {
+    .photo-grid {
+        max-width: 720px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .photo-grid {
+        margin-top: 64px;
+    }
+}
+
+
+/*
+@media all and (max-width: 1185px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(225px, 1fr));
+        gap: 14px;
+        margin: 92px calc((100vw - (300px * 3) - (14px * 2)) / 2) auto calc((100vw - (300px * 3) - (14px * 2)) / 2);
+    }
+}
+
+@media all and (max-width: 920px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
+        gap: 16px;
+        margin: 88px minmax(24px, calc((100vw - (352px * 2) - (16px)) / 2)) auto  minmax(24px, calc((100vw - (352px * 2) - (16px * 2)) / 2));
+    }
+}
+
+@media all and (max-width: 425px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+        margin: 64px minmax(16px, calc((100vw - (288px * 1)) / 2)) auto minmax(16px, calc((100vw - (288px * 1)) / 2));
+    }
+}
+
+*/
 
 /*я знаю, что адаптивка тут не работает от слова совсем. но я не понимаю, почему и сейчас 1:35 ночи.
 отправляю так, мои извинения. нужен пинок в сторону верного ответа :(*/

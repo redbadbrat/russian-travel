@@ -1,8 +1,15 @@
 .place__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.22;
     color: #FFFFFF;
     margin: 0;
 }
 
-.place__link:hover {
-    cursor: pointer;
+@media all and (max-width: 425px) {
+    .place__link {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

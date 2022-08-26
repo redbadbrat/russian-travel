@@ -1,4 +1,11 @@
 .cover {
     max-width: 1184px;
-    margin: 92px auto 92px auto;
+    margin: 0 auto 92px auto;
+}
+
+@media all and (max-width: 425px) {
+    .cover {
+        margin-top: 0;
+        margin-bottom: 64px;
+    }
 }

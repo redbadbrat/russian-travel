@@ -1,5 +1,5 @@
 .footer__copyright {
-    margin-left: auto;
+    margin: 0;
     padding: 0;
     text-decoration: none;
     color: #FFFFFF;
@@ -10,6 +10,7 @@
 
 @media all and (max-width: 660px) {
     .footer__copyright {
-        margin: 0 0 16px 0;
+        max-width: 186px;
+        margin: 0 0 16px 16px;
     }
 }
